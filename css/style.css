@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-weight: 300;
+  font-family: "Quicksand", "Arial", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.splash {
+  background: url(../img/bisibelabath.jpg);
+  background-size: cover;
+  background-position: center;
+
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.splash-text {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  min-width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 5rem;
+  margin: 3rem 0;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 8rem;
+    margin: 5rem 0;
+  }
+
+  .subtitle {
+    font-size: 3rem;
+    margin: 5rem 0;
+  }
+}
